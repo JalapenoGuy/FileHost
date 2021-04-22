@@ -12,7 +12,7 @@ while (numba < 300) {
   document.querySelector("#choose-auto-translate > span").click();
   await new Promise(r => setTimeout(r, 3000));
   document.querySelector("#publish-button > div").click();
-  await new Promise(r => setTimeout(r, 1000));
+  await new Promise(r => setTimeout(r, 2000));
   document.querySelector("#close-button").click();
   await new Promise(r => setTimeout(r, 2000));
   if(numba == 161){
