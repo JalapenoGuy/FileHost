@@ -14,7 +14,6 @@ while (numba < 300) {
   document.querySelector("#publish-button > div").click();
   await new Promise(r => setTimeout(r, 2000));
   document.querySelector("#close-button").click();
-  await new Promise(r => setTimeout(r, 2000));
   if(numba == 161){
     numba = 56 //French
   }
