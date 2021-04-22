@@ -2,6 +2,7 @@
 //"numba" is the number of the list box in where you select you language, so it's like your language
 var numba = 161; //Spanish
 while (numba < 300) {
+  await new Promise(r => setTimeout(r, 2000));
   document.querySelector("#add-translations-button > div").click();
   await new Promise(r => setTimeout(r, 3000));
   document.querySelector("#text-item-" + numba).click();
